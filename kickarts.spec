@@ -11,7 +11,7 @@ URL:		http://ripi.net/software/kickarts/
 BuildRequires:	kdelibs-devel >= 3.1
 BuildRequires:	xmms-devel
 Requires:	xmms
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _htmldir        /usr/share/doc/kde/HTML
 
