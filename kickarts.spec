@@ -2,7 +2,7 @@ Summary:	Panel applet to manage the aRts sound server
 Summary(pl):	Aplet panelu do kontroli serwera d¼wiêku aRts
 Name:		kickarts
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ripi.net/software/kickarts/%{name}-%{version}.tar.gz
