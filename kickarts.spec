@@ -13,8 +13,6 @@ BuildRequires:	kdelibs-devel >= 3.1
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _htmldir        /usr/share/doc/kde/HTML
-
 %description
 Kickarts is a simple panel applet to manage the aRts sound server. It
 has basically the same features as the command-line utility artsshell
