@@ -10,6 +10,7 @@ Source0:	http://ripi.net/software/kickarts/%{name}-%{version}.tar.gz
 URL:		http://ripi.net/software/kickarts/
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.1
+BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _htmldir        /usr/share/doc/kde/HTML
@@ -30,8 +31,7 @@ serwera d¼wiêku przed za³adowaniem niekompatybilnej aplikacji audio.
 %setup -q
 
 %build
-kde_htmldir="%{_htmldir}"; export kde_htmldir
-kde_icondir="%{_pixmapsdir}"; export kde_icondir
+kde_htmldir="%{_kdedocdir}"; export kde_htmldir
 CXXFLAGS="%{rpmcflags} -fno-rtti -fno-exceptions"
 cp -f /usr/share/automake/config.sub admin
 %configure
