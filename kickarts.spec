@@ -1,5 +1,5 @@
 Summary:	Panel applet to manage the aRts sound server
-Summary(pl):	Panel applet do kontroli serwera d¼wiêku aRts
+Summary(pl):	Aplet panelu do kontroli serwera d¼wiêku aRts
 Name:		kickarts
 Version:	0.4
 Release:	0.1
@@ -7,8 +7,6 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://ripi.net/software/kickarts/%{name}-%{version}.tar.gz
 URL:		http://ripi.net/software/kickarts/
-BuildRequires:	autoconf
-BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.1
 BuildRequires:	xmms-devel
 Requires:	xmms
@@ -23,10 +21,10 @@ and is useful for quickly suspending or terminating the sound server
 before launching an incompatible audio application.
 
 %description -l pl
-Kickarts to prosty panel applet do kontroli serwera d¼wiêku aRts. Ma
-zasadniczo te same mo¿liwo¶ci co narzêdzie linii poleceñ - artsshell i
-jest u¿yteczny do szybkiego zatrzymania lub wy³±czenia serwera d¼wiêku
-przed za³adowaniem niekompatybilnej aplikacji audio.
+Kickarts to prosty aplet panelu do kontroli serwera d¼wiêku aRts. Ma
+zasadniczo te same mo¿liwo¶ci co narzêdzie dzia³aj±ce z linii poleceñ
+- artsshell - i jest u¿yteczny do szybkiego zatrzymania lub wy³±czenia
+serwera d¼wiêku przed za³adowaniem niekompatybilnej aplikacji audio.
 
 %prep
 %setup -q
