@@ -2,12 +2,13 @@ Summary:	Panel applet to manage the aRts sound server
 Summary(pl):	Aplet panelu do kontroli serwera d¼wiêku aRts
 Name:		kickarts
 Version:	0.4
-Release:	0.2
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ripi.net/software/kickarts/%{name}-%{version}.tar.gz
 # Source0-md5:	2cee1c1f1d0117cc42cc6dadb90c900a
 URL:		http://ripi.net/software/kickarts/
+BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,6 +33,7 @@ serwera d¼wiêku przed za³adowaniem niekompatybilnej aplikacji audio.
 kde_htmldir="%{_htmldir}"; export kde_htmldir
 kde_icondir="%{_pixmapsdir}"; export kde_icondir
 CXXFLAGS="%{rpmcflags} -fno-rtti -fno-exceptions"
+cp -f /usr/share/automake/config.sub admin
 %configure
 
 %{__make}
