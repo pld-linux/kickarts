@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ripi.net/software/kickarts/%{name}-%{version}.tar.gz
+# Source0-md5:	2cee1c1f1d0117cc42cc6dadb90c900a
 URL:		http://ripi.net/software/kickarts/
 BuildRequires:	kdelibs-devel >= 3.1
 BuildRequires:	xmms-devel
