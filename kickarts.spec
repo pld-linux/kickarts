@@ -1,5 +1,5 @@
 Summary:	Panel applet to manage the aRts sound server
-Summary(pl.UTF-8):   Aplet panelu do kontroli serwera dźwięku aRts
+Summary(pl.UTF-8):	Aplet panelu do kontroli serwera dźwięku aRts
 Name:		kickarts
 Version:	0.4
 Release:	3
